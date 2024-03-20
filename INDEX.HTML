@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>document</title>
+    <link rel="stylesheet" href="STYLES.CSS">
+    <script src="https://kit.fontawesome.com/72671dd8c7.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/c9b87a4bee.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Madimi+One&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div>
+        <header id="encabezado">
+            <h1 class="logo">
+            <a href="INDEX.HTML"> <i class="fa-solid fa-oil-well"></i> </a>
+            </h1>
+                <input type="checkbox" id="check" />
+                <label for="check" class="checkbtn">
+                  <i class="fa-solid fa-bars"></i>
+                </label>
+                <nav class="navbar">
+                    <ul class="menu">
+                        <li><a class="navli" href="INDEX.HTML"> Inicio </a></li>
+                        <li><a class="navli" href="#acerca"> Acerca </a></li>
+                        <li><a class="navli" href="#Trabajos"> Trabajos </a></li>
+                        <li><a class="navli" href="#Servicios"> Servicios </a></li>
+                        <li><a class="navli" href="#Contacto"> Contacto </a></li>
+                    </ul>
+            </nav>
+            <video src=""></video>
+        </header>
+        <main id="Seccion-Principal">
+            <section class="Seccion-1">
+                <div class="Acerca-de">
+                    <h1 id="about"> Acerca de Mí </h1>
+                    <p class="Subtitulo"> Bienvenido a mi Web </p>
+                    <p class="contenido"> Me llamo Leo, nací en Lima y vivo en el distrito de Santiago de Surco. Me gusta el bubble tea y ver peliculas en Netflix. Me encanta aprender a programar para poder crear mi propia empresa de programacion web.</p>
+                </div>
+                <div class="Acerca-Imagen">
+                    <img src="IMG/leo.jpg" class=" Imagen-Portada ">
+                </div>
+            </section>    
+            <section class="Seccion-2">
+                <img src="IMG/fondo.jpg" class=" Fondo ">
+            </section>
+            <section class="Seccion-3">
+                <div class="Trabajos">
+                  <p class="Trabajo-1"> <img src="IMG/GATO1.jpeg" class="Gato1"></p>
+                  <p class="Trabajo-1"> <img src="IMG/GATO2.jpg" class="Gato2"></p>
+                </div>
+            </section>
+            <section class="Seccion-4">
+                <div class="Trabajos-Des">
+                    <p class="Gato1-Des">
+                    Gato naranja
+                    </p>
+                    <p class="Gato2-Des">
+                      Gato atrigrado griss
+                    </p>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <footer class="form-header">
+                <h1>Contacto</h1>
+                <p><em>¡Esperamos tu consulta!</em></p>
+          
+                <form action="" method="get" class="formulario" id="form">
+                  <div class="form-row">
+                      <label for="nombre">Nombre</label>
+                      <input id="nombre" name="nombre" type="text" />
+                  </div>
+                  <div class="form-email">
+                      <label for="email">Email</label>
+                      <input id="email"  name="email" type="email" placeholder="pepe@gmail.com" required/>
+                  </div>
+                  <div class="form-row">
+                      <label for="mensaje">Mensaje</label>
+                      <textarea id="mensaje" name="mensaje"></textarea>
+                  </div>
+                  <div class="form-row">
+                      <button>Enviar</button>
+                  </div>
+                  <p class="alertas" id="alertas"></p>
+                </form>
+            <nav>
+                <ul>
+                    <li><a href="INDEX.HTML" class="Fin_Foot"> Inicio </a></li>
+                    <li><a href="#Instagram"> <i class="fa-brands fa-instagram"> </i> </a></li>
+                    <li><a href="#Facebook"> <i class="fa-brands fa-facebook"></i> </a></li>
+                    <li><a href="#Twitter"> <i class="fa-brands fa-twitter"></i> </a></li>
+                </ul>
+            </nav>
+           
+        </footer>
+    </div>
+    <script src="SRIPT.JS"></script>
+</body>
+</html>
